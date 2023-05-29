@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Trust Service Provisioning</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Trust Service Provisioning</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-ApplicationComponent"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-ApplicationComponent" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Trust Service Provisioning ABB is an Application Component that enables the creation, verification, or validation of electronic signatures, time stamps, seals, electronically registered delivery services, and certificates. 
+
+Source: eIDAS
+
+Source reference: http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0073.01.ENG
+
+Additional information: A &#8216;trust service&#8217; means an electronic service normally provided for remuneration which consists of these functionalities: i) the creation, verification, and validation of electronic signatures, electronic seals or electronic time stamps, electronic registered delivery services and certificates related to those services, or; ii) the creation, verification and validation of certificates for website authentication; or; iii) the preservation of electronic signatures, seals or certificates related to those services.
+
+Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): e-TrustEx - Open e-TrustEx is a platform offered by the Directorate-General for Informatics of the European Commission to Public Administrations at European, national and regional level to set up secure exchange of natively digital documents from system to system via standardized interfaces. Open e-TrustEx provides a set of generic web services, which Public Administrations can use to connect heterogeneous applications, removing the need for complex point-to-point connections. http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52016SC0279
+
+IoP Dimension: Structural IoP
+
+LOST view: Technical view - application
+
+Interoperability saliency: The Trust Service Provisioning Component ABB &#160;is salient for technical interoperability  because it provides the implementation of the functionalities of information exchange between between administrations, businesses and citizens (e-signature and e-seal creation, verification,validation and preservation, timestamping  creation, verification and validation, identity management, etc.) as stated in the EIF recommendation n&#176;47: "Use trust services according to the Regulation on eID and Trust Services as mechanisms that ensure secure and protected data exchange in public services."
+
+Identifier: http://data.europa.eu/dr8/TrustServiceProvisioningApplicationComponent
+
+eira:ID: ABB69
+
+ABB name: eira:TrustServiceProvisioningApplicationComponent
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+Last modification: 2022-20-01
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/TrustServiceProvisioningApplicationComponent</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:TrustServiceProvisioningApplicationComponent</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2022-01-20</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Trust Service Provisioning ABB is an Application Component that enables the creation, verification, or validation of electronic signatures, time stamps, seals, electronically registered delivery services, and certificates. </td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eIDAS</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0073.01.ENG</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): e-TrustEx - Open e-TrustEx is a platform offered by the Directorate-General for Informatics of the European Commission to Public Administrations at European, national and regional level to set up secure exchange of natively digital documents from system to system via standardized interfaces. Open e-TrustEx provides a set of generic web services, which Public Administrations can use to connect heterogeneous applications, removing the need for complex point-to-point connections. http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52016SC0279</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Trust Service Provisioning Component ABB &#160;is salient for technical interoperability  because it provides the implementation of the functionalities of information exchange between between administrations, businesses and citizens (e-signature and e-seal creation, verification,validation and preservation, timestamping  creation, verification and validation, identity management, etc.) as stated in the EIF recommendation n&#176;47: "Use trust services according to the Regulation on eID and Trust Services as mechanisms that ensure secure and protected data exchange in public services."</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">A &#8216;trust service&#8217; means an electronic service normally provided for remuneration which consists of these functionalities: i) the creation, verification, and validation of electronic signatures, electronic seals or electronic time stamps, electronic registered delivery services and certificates related to those services, or; ii) the creation, verification and validation of certificates for website authentication; or; iii) the preservation of electronic signatures, seals or certificates related to those services.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view - application</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Interoperability Security viewpoint</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/TrustServiceProvisioningApplicationComponent</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
