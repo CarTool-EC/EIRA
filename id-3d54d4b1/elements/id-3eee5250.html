@@ -54,23 +54,27 @@ Source: Inspired in SIMPL
 
 Source reference: https://digital-strategy.ec.europa.eu/en/news/simpl-cloud-edge-federations-and-data-spaces-made-simple
 
-Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Activiti audit feature - The audit feature of Activiti archives all process instances, activity instances, keeps variable values continuously in sync and all form properties that are submitted so that all user interaction through forms is traceable and can be audited. Authenticated users who submitted the forms are accessible in the history as well as for start forms and task forms. https://www.activiti.org/userguide/#historyFormAuditPurposes
-
-IoP Dimension: Structural IoP
-
-LOST view: Technical view - application
-
-Interoperability saliency: The Audit Component ABB &#160;is salient for technical interoperability because it allows the implementation of audit policies as stated in the EIF: "Public administrations should ensure that a 'data access and authorisation plan&#8217; which determines who has access to what data and under what conditions, to ensure privacy. Unauthorised access and security breaches should be monitored and appropriate actions should be taken to prevent any recurrence of breaches"
+Last modification: 2024-01-28
 
 Identifier: http://data.europa.eu/dr8/AuditApplicationComponent
 
-eira:ID: ABB71
-
-ABB name: eira:AuditApplicationComponent
+LOST view: Technical view - application
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-Last modification: 2022-18-01
+ABB name: eira:AuditApplicationComponent
+
+Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Activiti audit feature - The audit feature of Activiti archives all process instances, activity instances, keeps variable values continuously in sync and all form properties that are submitted so that all user interaction through forms is traceable and can be audited. Authenticated users who submitted the forms are accessible in the history as well as for start forms and task forms. https://www.activiti.org/userguide/#historyFormAuditPurposes
+
+Interoperability Saliency: The Audit Component ABB &#160;is salient for technical interoperability because it allows the implementation of audit policies as stated in the EIF: "Public administrations should ensure that a 'data access and authorisation plan&#8217; which determines who has access to what data and under what conditions, to ensure privacy. Unauthorised access and security breaches should be monitored and appropriate actions should be taken to prevent any recurrence of breaches"
+
+Interoperability Dimension: Structural IoP
+
+Viewpoint: Interoperability Security viewpoint
+
+Additional identifier: http://data.europa.eu/dr8/AuditApplicationComponent
+
+EIF Layer: TechnicalApplication
 
 </div>
 					</div>
@@ -97,11 +101,14 @@ Last modification: 2022-18-01
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a">
-																	<td><a href="../views/id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a.html" target="view" title="Interoperability Security viewpoint"> Interoperability Security viewpoint </a></td>
-																	<td><span class="i18n-viewpoint-" /></td>
-																</tr><tr id="used-in-views-id-6a8b3a5a">
+								<tr id="used-in-views-id-6a8b3a5a">
 																	<td><a href="../views/id-6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-fcfb8e9b6d5546f9b785871557fd523a">
+																	<td><a href="../views/id-fcfb8e9b6d5546f9b785871557fd523a.html" target="view" title="Interoperability Structural viewpoint"> Interoperability Structural viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a">
+																	<td><a href="../views/id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a.html" target="view" title="Interoperability Security viewpoint"> Interoperability Security viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -118,15 +125,14 @@ Last modification: 2022-18-01
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-7dc70a1c.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-3eee5250.html" target="element"> Audit</a></td>
-											<td><a href="../elements/id-0c2b5682.html" target="element"> Audit</a></td>
-										</tr>
-									<tr>
 											<td><a href="../elements/id-5073fdd2c91249f898ec6c07f09c41b0.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-0068d6aa6b214b7dab50025f9883fb79.html" target="element"> Security Enablers</a></td>
+											<td><a href="../elements/id-3eee5250.html" target="element"> Audit</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-117dde356b084f01985fbcc6c82f72a1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-0c2b5682.html" target="element"> Audit</a></td>
 											<td><a href="../elements/id-3eee5250.html" target="element"> Audit</a></td>
 										</tr>
 							</tbody>

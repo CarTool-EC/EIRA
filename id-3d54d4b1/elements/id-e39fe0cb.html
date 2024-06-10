@@ -54,23 +54,27 @@ Source: ITIL v3
 
 Source reference: https://wiki.en.it-processmaps.com/index.php/Access_Management
 
-Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): OpenIAM Access Manager - OpenIAM Access Management solution is based on a professional open source model. This is a robust, scalable solution built with Service Oriented Architecture. It integrates seamlessly with the OpenIAM Identity Manager product to provide a comprehensive solution that allows to take control of not only who can access the systems, but what they can do once they are in there. Corporate security policy is enforced across multiple points and managed centrally to improve effectiveness and reduce administrative costs.(http://www.openiam.com/products/access-manager/overview/)
-
-IoP Dimension: Structural IoP
-
-LOST view: Technical view - Domain specific
-
-Interoperability saliency: The Access Management Component ABB &#160;is salient for technical interoperability because it provides the implementation the functionality of allowing user to make an authorized and trusted use of IT Services, data and other assets as stated in the EIF: "Public administrations should ensure that a 'data access and authorisation plan&#8217; which determines who has access to what data and under what conditions, to ensure privacy. Unauthorised access and security breaches should be monitored and appropriate actions should be taken to prevent any recurrence of breaches"
+Last modification: 2024-01-28
 
 Identifier: http://data.europa.eu/dr8/AccessManagementApplicationComponent
 
-eira:ID: ABB70
-
-ABB name: eira:AccessManagementApplicationComponent
+LOST view: Technical view - application
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-Last modification: 2022-18-01
+ABB name: eira:AccessManagementApplicationComponent
+
+Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): OpenIAM Access Manager - OpenIAM Access Management solution is based on a professional open source model. This is a robust, scalable solution built with Service Oriented Architecture. It integrates seamlessly with the OpenIAM Identity Manager product to provide a comprehensive solution that allows to take control of not only who can access the systems, but what they can do once they are in there. Corporate security policy is enforced across multiple points and managed centrally to improve effectiveness and reduce administrative costs.(http://www.openiam.com/products/access-manager/overview/)
+
+Interoperability Saliency: The Access Management Component ABB &#160;is salient for technical interoperability because it provides the implementation the functionality of allowing user to make an authorized and trusted use of IT Services, data and other assets as stated in the EIF: "Public administrations should ensure that a 'data access and authorisation plan&#8217; which determines who has access to what data and under what conditions, to ensure privacy. Unauthorised access and security breaches should be monitored and appropriate actions should be taken to prevent any recurrence of breaches"
+
+Interoperability Dimension: Structural IoP
+
+Viewpoint: Interoperability Security viewpoint
+
+Additional identifier: http://data.europa.eu/dr8/AccessManagementApplicationComponent
+
+EIF Layer: TechnicalApplication
 
 </div>
 					</div>
@@ -103,6 +107,9 @@ Last modification: 2022-18-01
 																</tr><tr id="used-in-views-id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a">
 																	<td><a href="../views/id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a.html" target="view" title="Interoperability Security viewpoint"> Interoperability Security viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-fcfb8e9b6d5546f9b785871557fd523a">
+																	<td><a href="../views/id-fcfb8e9b6d5546f9b785871557fd523a.html" target="view" title="Interoperability Structural viewpoint"> Interoperability Structural viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
 						</table>
@@ -118,15 +125,14 @@ Last modification: 2022-18-01
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-79d4de5a.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-e39fe0cb.html" target="element"> Access Management</a></td>
-											<td><a href="../elements/id-e01cc8db.html" target="element"> Access Management</a></td>
-										</tr>
-									<tr>
 											<td><a href="../elements/id-64a9a1cd2f11408bb06de15e799a2fc5.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-b2277944c9764e57a655b3e78dfba414.html" target="element"> Identification and Access Enablers</a></td>
+											<td><a href="../elements/id-e39fe0cb.html" target="element"> Access Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c834357d1c9541079bc2de2a49dd4528.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-e01cc8db.html" target="element"> Access Management</a></td>
 											<td><a href="../elements/id-e39fe0cb.html" target="element"> Access Management</a></td>
 										</tr>
 							</tbody>

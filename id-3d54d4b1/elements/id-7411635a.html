@@ -54,23 +54,27 @@ Source: Eurostat Data Validation
 
 Source reference: http://ec.europa.eu/eurostat/data/data-validation
 
-Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Eurostat Struval - The Structural Validation service (called STRUVAL) performs structural validation of statistical data files following the SDMX Information Model for a given data flow. It ensures that a data file respects the following key elements: &#8226;	SDMX compliance in terms of checks on file format and completeness in terms of mandatory fields; &#8226;	SDMX compliance in terms of the structure and coding defined by the Data Structure Definition (DSD); &#8226;	The constraints defined for respective data flows. The STRUVAL service returns a response containing a machine-readable message that is processed by the process manager. The invoker of the service receives a validation report, regardless of the result of the process (in case of no failures the reports hold no records). http://ec.europa.eu/eurostat/web/sdmx-infospace/validation-transformation/structural-validation
-
-IoP Dimension: Behavioral IoP 
-
-LOST view: Technical view - application
-
-Interoperability saliency: The Data Quality Service ABB &#160;is salient for technical interoperability because it shares the functionality to validate if data received (or to be sent) is compliant with common and agreed interoperable formats as stated in the EIF recommendation n&#176; 41: "Establish procedures and processes to integrate the opening of data in your common business processes, working routines, and in the development of new information systems."
+Last modification: 2024-01-28
 
 Identifier: http://data.europa.eu/dr8/DataQualityApplicationService
 
-eira:ID: ABB42
-
-ABB name: eira:DataQualityApplicationService
+LOST view: Technical view - application
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-Last modification: 2022-23-01
+ABB name: eira:DataQualityApplicationService
+
+Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Eurostat Struval - The Structural Validation service (called STRUVAL) performs structural validation of statistical data files following the SDMX Information Model for a given data flow. It ensures that a data file respects the following key elements: &#8226;	SDMX compliance in terms of checks on file format and completeness in terms of mandatory fields; &#8226;	SDMX compliance in terms of the structure and coding defined by the Data Structure Definition (DSD); &#8226;	The constraints defined for respective data flows. The STRUVAL service returns a response containing a machine-readable message that is processed by the process manager. The invoker of the service receives a validation report, regardless of the result of the process (in case of no failures the reports hold no records). http://ec.europa.eu/eurostat/web/sdmx-infospace/validation-transformation/structural-validation
+
+Interoperability Saliency: The Data Quality Service ABB &#160;is salient for technical interoperability because it shares the functionality to validate if data received (or to be sent) is compliant with common and agreed interoperable formats as stated in the EIF recommendation n&#176; 41: "Establish procedures and processes to integrate the opening of data in your common business processes, working routines, and in the development of new information systems."
+
+Interoperability Dimension: Structural IoP
+
+Viewpoint: Interoperability Privacy viewpoint
+
+Additional identifier: http://data.europa.eu/dr8/DataQualityApplicationService
+
+EIF Layer: TechnicalApplication
 
 </div>
 					</div>
@@ -83,7 +87,7 @@ Last modification: 2022-23-01
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DataQualityApplicationService</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DataQualityApplicationService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2024-01-28</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data Quality ABB is an Application Service that enables the procedures to ensure the data is accurate, complete, consistent, and up-to-date</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Eurostat Data Validation </td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://ec.europa.eu/eurostat/data/data-validation</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Eurostat Struval - The Structural Validation service (called STRUVAL) performs structural validation of statistical data files following the SDMX Information Model for a given data flow. It ensures that a data file respects the following key elements: &#8226;	SDMX compliance in terms of checks on file format and completeness in terms of mandatory fields; &#8226;	SDMX compliance in terms of the structure and coding defined by the Data Structure Definition (DSD); &#8226;	The constraints defined for respective data flows. The STRUVAL service returns a response containing a machine-readable message that is processed by the process manager. The invoker of the service receives a validation report, regardless of the result of the process (in case of no failures the reports hold no records). http://ec.europa.eu/eurostat/web/sdmx-infospace/validation-transformation/structural-validation</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Data Quality Service ABB &#160;is salient for technical interoperability because it shares the functionality to validate if data received (or to be sent) is compliant with common and agreed interoperable formats as stated in the EIF recommendation n&#176; 41: "Establish procedures and processes to integrate the opening of data in your common business processes, working routines, and in the development of new information systems."</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Behavioral IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view - application</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Interoperability Privacy viewpoint</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DataQualityApplicationService</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TechnicalApplication</td></tr>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DataQualityApplicationService</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DataQualityApplicationService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2024-01-28</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data Quality ABB is an Application Service that enables the procedures to ensure the data is accurate, complete, consistent, and up-to-date</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Eurostat Data Validation </td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://ec.europa.eu/eurostat/data/data-validation</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Eurostat Struval - The Structural Validation service (called STRUVAL) performs structural validation of statistical data files following the SDMX Information Model for a given data flow. It ensures that a data file respects the following key elements: &#8226;	SDMX compliance in terms of checks on file format and completeness in terms of mandatory fields; &#8226;	SDMX compliance in terms of the structure and coding defined by the Data Structure Definition (DSD); &#8226;	The constraints defined for respective data flows. The STRUVAL service returns a response containing a machine-readable message that is processed by the process manager. The invoker of the service receives a validation report, regardless of the result of the process (in case of no failures the reports hold no records). http://ec.europa.eu/eurostat/web/sdmx-infospace/validation-transformation/structural-validation</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Data Quality Service ABB &#160;is salient for technical interoperability because it shares the functionality to validate if data received (or to be sent) is compliant with common and agreed interoperable formats as stated in the EIF recommendation n&#176; 41: "Establish procedures and processes to integrate the opening of data in your common business processes, working routines, and in the development of new information systems."</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view - application</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Interoperability Privacy viewpoint</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DataQualityApplicationService</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TechnicalApplication</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -97,11 +101,14 @@ Last modification: 2022-23-01
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6">
-																	<td><a href="../views/id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6.html" target="view" title="Interoperability Privacy viewpoint"> Interoperability Privacy viewpoint </a></td>
+								<tr id="used-in-views-id-fcfb8e9b6d5546f9b785871557fd523a">
+																	<td><a href="../views/id-fcfb8e9b6d5546f9b785871557fd523a.html" target="view" title="Interoperability Structural viewpoint"> Interoperability Structural viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr><tr id="used-in-views-id-6a8b3a5a">
 																	<td><a href="../views/id-6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6">
+																	<td><a href="../views/id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6.html" target="view" title="Interoperability Privacy viewpoint"> Interoperability Privacy viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -122,16 +129,16 @@ Last modification: 2022-23-01
 											<td><span class="i18n-elementtype-AccessRelationship" /></td>
 											<td><a href="../elements/id-7411635a.html" target="element"> Data Quality</a></td>
 											<td><a href="../elements/id-c682a79a.html" target="element"> Data</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a667aa7cd0bf402088ca0e645119e120.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-7411635a.html" target="element"> Data Quality</a></td>
+											<td><a href="../elements/id-ea5bedf1.html" target="element"> Data Quality</a></td>
 										</tr>
 									<tr>
 											<td><a href="../elements/id-4f6ab423b3af4621be65fadcfc52eb0b.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-32f5f50aefd84a1f98bed2ec6db3b608.html" target="element"> Data Management Enablers</a></td>
-											<td><a href="../elements/id-7411635a.html" target="element"> Data Quality</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-475c953f.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-ea5bedf1.html" target="element"> Data Quality</a></td>
 											<td><a href="../elements/id-7411635a.html" target="element"> Data Quality</a></td>
 										</tr>
 							</tbody>
