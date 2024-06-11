@@ -43532,7 +43532,7 @@ EIF Layer: Semantic</documentation>
           <value xml:lang="es">2024-04-29</value>
         </property>
         <property propertyDefinitionRef="propid-7">
-          <value xml:lang="es">Shared Knowledge Content ABB is a Grouping settingsemantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share a common understanding from existing data, information and services across public administrations across borders.</value>
+          <value xml:lang="es">Shared Knowledge Content ABB is a Grouping setting semantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share a common understanding from existing data, information and services across public administrations across borders.</value>
         </property>
         <property propertyDefinitionRef="propid-8">
           <value xml:lang="es">Atlassian</value>
@@ -44391,7 +44391,7 @@ EIF Layer: Organisational</documentation>
           <value xml:lang="es">2024-04-29</value>
         </property>
         <property propertyDefinitionRef="propid-7">
-          <value xml:lang="es">Shared Organisational Content ABB is a Grouping settingorganizational (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share digital assets, knowledge repositories, best practices, and expertise across departments and agencies. This facilitates seamless collaboration, enhances efficiency, and fosters innovation in the development and delivery of Digital Public Services, aligning with the overarching goal of improving citizen experiences and outcomes.</value>
+          <value xml:lang="es">Shared Organisational Content ABB is a Grouping setting organizational (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share digital assets, knowledge repositories, best practices, and expertise across departments and agencies. This facilitates seamless collaboration, enhances efficiency, and fosters innovation in the development and delivery of Digital Public Services, aligning with the overarching goal of improving citizen experiences and outcomes.</value>
         </property>
         <property propertyDefinitionRef="propid-8">
           <value xml:lang="es">EUR-LEX</value>
@@ -44986,7 +44986,7 @@ EIF Layer: TechnicalApplication</documentation>
           <value xml:lang="es">2024-01-28</value>
         </property>
         <property propertyDefinitionRef="propid-7">
-          <value xml:lang="es">Shared Application Content ABB is a Grouping settingsemantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share software tools and services, fostering collaborative functionality within and across applications to support the attainment of public policy goals and the creation of interoperable digital public services.</value>
+          <value xml:lang="es">Shared Application Content ABB is a Grouping setting application (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share software tools and services, fostering collaborative functionality within and across applications to support the attainment of public policy goals and the creation of interoperable digital public services.</value>
         </property>
         <property propertyDefinitionRef="propid-8">
           <value xml:lang="es">Inspired in referent cloud service providers definitions</value>
@@ -45696,7 +45696,7 @@ EIF Layer: Legal</documentation>
           <value xml:lang="es">ABC</value>
         </property>
         <property propertyDefinitionRef="propid-7">
-          <value xml:lang="es">Shared Legal Content ABB is a Grouping settinglegal (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share legislations and cross-legal jurisdiction as key enablers for the creation of interoperable digital public services.</value>
+          <value xml:lang="es">Shared Legal Content ABB is a Grouping setting legal (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share legislations and cross-legal jurisdiction as key enablers for the creation of interoperable digital public services.</value>
         </property>
         <property propertyDefinitionRef="propid-8">
           <value xml:lang="es">EUR-LEX</value>
@@ -45821,7 +45821,7 @@ EIF Layer: TechnicalInfrastructure</documentation>
           <value xml:lang="es">2024-01-28</value>
         </property>
         <property propertyDefinitionRef="propid-7">
-          <value xml:lang="es">Shared Infrastructure Content ABB is a Grouping settingsemantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share IT resources to support technical aspects for the infrastructure of interoperable Digital Public Services. It provides a unified IT environment encompassing hardware, software, and processes, promoting secure and efficient resource utilization across multiple stakeholders. This shared infrastructure ensures data integrity, operational efficiency, and effective collaboration while maintaining strict data and operational separation for confidentiality and reliability.</value>
+          <value xml:lang="es">Shared Infrastructure Content ABB is a Grouping setting infrastructure (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share IT resources to support technical aspects for the infrastructure of interoperable Digital Public Services. It provides a unified IT environment encompassing hardware, software, and processes, promoting secure and efficient resource utilization across multiple stakeholders. This shared infrastructure ensures data integrity, operational efficiency, and effective collaboration while maintaining strict data and operational separation for confidentiality and reliability.</value>
         </property>
         <property propertyDefinitionRef="propid-8">
           <value xml:lang="es">Joinup</value>

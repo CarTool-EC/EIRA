@@ -31359,7 +31359,7 @@ EIF Layer: Semantic
 		<eira:PURI>http://data.europa.eu/dr8/SharedKnowledgeContentGrouping</eira:PURI>
 		<dcterms:type>eira:SharedKnowledgeContentGrouping</dcterms:type>
 		<dcterms:modified>2024-04-29</dcterms:modified>
-		<skos:definition><![CDATA[Shared Knowledge Content ABB is a Grouping settingsemantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share a common understanding from existing data, information and services across public administrations across borders.]]></skos:definition>
+		<skos:definition><![CDATA[Shared Knowledge Content ABB is a Grouping setting semantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share a common understanding from existing data, information and services across public administrations across borders.]]></skos:definition>
 		<eira:definitionSource><![CDATA[Atlassian]]></eira:definitionSource>
 		<eira:definitionSourceReference><![CDATA[https://www.atlassian.com/itsm/knowledge-management/what-is-a-knowledge-base]]></eira:definitionSourceReference>
 		<skos:example><![CDATA[The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Eur-Lex (stylized EUR-Lex) is an official website of European Union law and other public documents of the European Union (EU), published in 24 official languages of the EU. The Official Journal (OJ) of the European Union is also published on Eur-Lex. Users can access Eur-Lex free of charge and also register for a free account, which offers extra features. https://eur-lex.europa.eu/homepage.html?locale=en]]></skos:example>
@@ -32076,7 +32076,7 @@ EIF Layer: Organisational
 		<eira:PURI>http://data.europa.eu/dr8/SharedOrganisationalContentGrouping</eira:PURI>
 		<dcterms:type>eira:SharedOrganisationalContentGrouping</dcterms:type>
 		<dcterms:modified>2024-04-29</dcterms:modified>
-		<skos:definition><![CDATA[Shared Organisational Content ABB is a Grouping settingorganizational (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share digital assets, knowledge repositories, best practices, and expertise across departments and agencies. This facilitates seamless collaboration, enhances efficiency, and fosters innovation in the development and delivery of Digital Public Services, aligning with the overarching goal of improving citizen experiences and outcomes.]]></skos:definition>
+		<skos:definition><![CDATA[Shared Organisational Content ABB is a Grouping setting organizational (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share digital assets, knowledge repositories, best practices, and expertise across departments and agencies. This facilitates seamless collaboration, enhances efficiency, and fosters innovation in the development and delivery of Digital Public Services, aligning with the overarching goal of improving citizen experiences and outcomes.]]></skos:definition>
 		<eira:definitionSource><![CDATA[EUR-LEX]]></eira:definitionSource>
 		<eira:definitionSourceReference><![CDATA[(https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0695&qid=1646736486403)]]></eira:definitionSourceReference>
 		<eira:synonym></eira:synonym>
@@ -32565,7 +32565,7 @@ EIF Layer: TechnicalApplication
 		<eira:PURI>http://data.europa.eu/dr8/SharedApplicationContentGrouping</eira:PURI>
 		<dcterms:type>eira:SharedApplicationContentGrouping</dcterms:type>
 		<dcterms:modified>2024-01-28</dcterms:modified>
-		<skos:definition><![CDATA[Shared Application Content ABB is a Grouping settingsemantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share software tools and services, fostering collaborative functionality within and across applications to support the attainment of public policy goals and the creation of interoperable digital public services.]]></skos:definition>
+		<skos:definition><![CDATA[Shared Application Content ABB is a Grouping setting application (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share software tools and services, fostering collaborative functionality within and across applications to support the attainment of public policy goals and the creation of interoperable digital public services.]]></skos:definition>
 		<eira:definitionSource><![CDATA[Inspired in referent cloud service providers definitions]]></eira:definitionSource>
 		<eira:definitionSourceReference><![CDATA[]]></eira:definitionSourceReference>
 		<eira:synonym></eira:synonym>
@@ -33105,7 +33105,7 @@ EIF Layer: Legal
 		<dcterms:type>eira:SharedLegalContentGrouping</dcterms:type>
 		<dcterms:modified>2024-04-29</dcterms:modified>
 		<eira:synonym>ABC</eira:synonym>
-		<skos:definition><![CDATA[Shared Legal Content ABB is a Grouping settinglegal (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share legislations and cross-legal jurisdiction as key enablers for the creation of interoperable digital public services.]]></skos:definition>
+		<skos:definition><![CDATA[Shared Legal Content ABB is a Grouping setting legal (re)usable resources with convergence power, to public policy goals attainment, enabling to reuse and share legislations and cross-legal jurisdiction as key enablers for the creation of interoperable digital public services.]]></skos:definition>
 		<eira:definitionSource><![CDATA[EUR-LEX]]></eira:definitionSource>
 		<eira:definitionSourceReference><![CDATA[(https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0695&qid=1646736486403)]]></eira:definitionSourceReference>
 		<skos:example><![CDATA[The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): The past years have seen an extraordinary proliferation of sharing economy platforms, and the largest platforms have fast become global enterprises with market capitalisations that exceed competitors with “traditional” business concepts. These developments call into question a number of regulatory matters and pose new questions for national and European-level regulators. (https://www.intereconomics.eu/contents/year/2017/number/1/article/regulating-the-european-sharing-economy-state-of-play-and-challenges.html).]]></skos:example>
@@ -33177,7 +33177,7 @@ EIF Layer: TechnicalInfrastructure
 		<eira:PURI>http://data.europa.eu/dr8/SharedInfrastructureContentGrouping</eira:PURI>
 		<dcterms:type>eira:SharedInfrastructureContentGrouping</dcterms:type>
 		<dcterms:modified>2024-01-28</dcterms:modified>
-		<skos:definition><![CDATA[Shared Infrastructure Content ABB is a Grouping settingsemantic (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share IT resources to support technical aspects for the infrastructure of interoperable Digital Public Services. It provides a unified IT environment encompassing hardware, software, and processes, promoting secure and efficient resource utilization across multiple stakeholders. This shared infrastructure ensures data integrity, operational efficiency, and effective collaboration while maintaining strict data and operational separation for confidentiality and reliability.]]></skos:definition>
+		<skos:definition><![CDATA[Shared Infrastructure Content ABB is a Grouping setting infrastructure (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share IT resources to support technical aspects for the infrastructure of interoperable Digital Public Services. It provides a unified IT environment encompassing hardware, software, and processes, promoting secure and efficient resource utilization across multiple stakeholders. This shared infrastructure ensures data integrity, operational efficiency, and effective collaboration while maintaining strict data and operational separation for confidentiality and reliability.]]></skos:definition>
 		<eira:definitionSource><![CDATA[Joinup]]></eira:definitionSource>
 		<eira:definitionSourceReference><![CDATA[https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/shared-infrastructure]]></eira:definitionSourceReference>
 		<eira:synonym></eira:synonym>
