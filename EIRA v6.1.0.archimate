@@ -19024,27 +19024,30 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Carbon-dioxide e-footprint impact awareness " id="id-0f5c9a824aea4be4993ffaead7a3caeb">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Every solution must support sustainability. The sourcing, operation and decommissioning of IT equipment should not indirectly or directly negatively affect economic, social and environmental aspects. Climate change is one of societys challenges for the upcoming decades, and public administrations shall be aware of and consider it when planning or implementing digital public services. Therefore, administrations and bodies in charge of developing public services according to public policies, need to consider the proper agreements that allow the reusing of existing services components and infrastructure to reduce the Carbon-dioxide e-footprint impact. Public Administrations need to reuse mainly physical or cloud existing infrastructures instead of creating ad-hoc technology and resources for delivering public services. Not only infrastructure but also technological equipment.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: The European Parliament’s carbon footprint Towards carbon neutrality
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjiofaGvLv2AhUThf0HHSXLBZoQFnoECAIQAQ&amp;url=https%3A%2F%2Fwww.europarl.europa.eu%2FRegData%2Fetudes%2FSTUD%2F2020%2F652735%2FIPOL_STU(2020)652735_EN.pdf&amp;usg=AOvVaw2CVqJPeLvN_ianAYdbLyi7
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
+Identifier: http://data.europa.eu/2sa/elap/carbon-dioxide-e-footprint-impact-awareness
 
-LOST view: TVA-Functional Architecture Principles
+LOST view: OV-Governance Architecture Principles
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:carbon-dioxide-e-footprint-impact-awareness
 
-Title: Administrative Simplification
+Title: Carbon-dioxide e-footprint impact awareness 
+
+Additional information: Climate change is one of society's challenges for the upcoming decades, and public administrations shall be aware of and consider it when planning or implementing digital public services. Therefore, administrations and bodies in charge of developing public services according to public policies, need to consider the proper agreements that allow the reusing of existing services components and infrastructure to reduce the Carbon-dioxide e-footprint impact.  
+Towards carbon neutrality - European Parliament: The study analyses the European Parliament’s (EP) carbon footprint in the context of the recent EP resolutions, in which it declared a climate emergency in Europe and requested the development of a strategy to become itself carbon-neutral by 2030.
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:carbon-dioxide-e-footprint-impact-awareness"/>
@@ -19100,27 +19103,27 @@ Last modification: 2022-23-01
       <property key="eira:eifLayer" value="N/A"/>
     </element>
     <element xsi:type="archimate:Principle" name="Loosely coupled integration" id="id-1825841ad6cb4075a8f5570097f5e89d">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Organisations are loosely coupled with other organisations. Loosely coupled organisations are able to function with minimal dependency on other organisations. This enables faster implementation and change of digital public services. Any public organisation should avoid the entanglement of inter-organisational processes for performing activities, that spread over multiple organisations. The application for a visa, for instance, should be performed in a single transaction, from an applicants perspective. Whether the process comprises multiple interactions between public institutions (like Frontex, Embassy, Interpol) or not, should be transparent to the applicant. Inter-organisational interfaces in this case should not duplicate the processes, using the same data and leading to the same outcome. Each organisation serves a unique part of the application process. Loosely coupled integration can be achieved by establishing the proper organisational agreements, that ensure the proper implementation of digital public services without hampering any change or modification in those services. At technical and semantic layers, it can be achieved by reusing existing application services or core vocabularies that ensure interoperability between services without including dependencies between them. &quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Organizations Social Systems Conducting Experiments
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://link.springer.com/book/10.1007/978-3-642-14316-8
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
+Identifier: http://data.europa.eu/2sa/elap/loosely-coupled-integration
 
 LOST view: TVA-Functional Architecture Principles
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:loosely-coupled-integration
 
-Title: Administrative Simplification
+Title: Loosely coupled integration
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:loosely-coupled-integration"/>
@@ -19227,27 +19230,32 @@ ABB name: eira:ConsumerProtectionPrinciple
       <property key="dct:type" value="eira:ConsumerProtectionPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Privacy" id="id-2016e277f67f40dbbd527a924715468e">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Signifies the agreement to the processing of personal data related to an individual
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
-
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.4
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
+Identifier: http://data.europa.eu/2sa/elap/privacy
 
 LOST view: TVA-Functional Architecture Principles
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:privacy
 
-Title: Administrative Simplification
+Additional information: Privacy refers to any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by clear affirmative action, signifies agreement to the processing of personal data relating to him or her. 
+
+Additionally, it refers to ensuring that the vast amounts of citizens' personal data held and processed by public bodies are protected by complying with the applicable legal framework.
+
+A relevant aspect to consider when focusing on the application of privacy is full compliance with GDPR Regulation. 
+The European Interoperability Framework is part of the Communication (COM(2017)134) from the European Commission adopted on 23 March 2017. The framework gives specific guidance on how to set up interoperable digital public services.
+
+Title: Privacy
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: http://data.europa.eu/dr8/EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:privacy"/>
@@ -19355,27 +19363,25 @@ ABB Specialised: http://data.europa.eu/dr8/ArchitecturePrinciple
       <property key="skos:broader" value="http://data.europa.eu/dr8/ArchitecturePrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Subsidiarity and proportionality" id="id-22eaa23e270d4749970192eef80a8895">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: The subsidiarity principle requires EU decisions to be taken as closely as possible by the citizen. The proportionality principle limits EU actions to what is necessary to achieve the objectives of the Treaties. One of the implications of the principle is that at a national level, some measures should be put in place to ensure that the specific needs of a specific country are considered and planned within national interoperability frameworks.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Subsidiarity and proportionality Underlying Principle (1) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.2
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/subsidiarity-and-proportionality
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:SubsidiarityAndProportionalityPrinciple
 
-Title: Administrative Simplification
+Title: Subsidiarity and proportionality
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:SubsidiarityAndProportionalityPrinciple"/>
@@ -19390,27 +19396,27 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Reuse, before buy, before build" id="id-240dc6b90d8a4278a80191f080f3ab00">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Existing IT systems are reused, before deciding upon buying or even building them. Taxpayers money can only be spent once. Reusing existing systems is a lot cheaper that buying new systems or even building them. In most cases, the requirements of public administrations are not very specific, and existing systems are sufficient to support the processes. It may seem that the costs of building new IT systems can be acceptable, but the costs of the maintenance and support of these systems are often forgotten and are much higher than the cost related to the initial development. When requirements for IT support arise, it is first determined whether systems that provide similar functionality are already available in the organization or otherwise in the market.Requirements that are not supported by existing systems are critically analyzed to determine whether they are really essential.Processes are adapted to existing systems or standard systems that are available in the market, when possible and acceptable.Building new IT systems is only considered a last resort when no existing systems exist or cannot fulfil essential requirements.&quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Reusability Underlying Principle (4) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/reusability
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
+Identifier: http://data.europa.eu/2sa/elap/reuse-buy-build
 
 LOST view: TVA-Functional Architecture Principles
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:reuse-buy-build
 
-Title: Administrative Simplification
+Title: Reuse, before buy, before build
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:reuse-buy-build"/>
@@ -19446,9 +19452,10 @@ ABB name: elap:administrative-simplification
 
 Title: Administrative Simplification
 
+
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:administrative-simplification"/>
@@ -19557,27 +19564,25 @@ ABB name: eira:FairCompetitionPrinciple
       <property key="dct:type" value="eira:FairCompetitionPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Technology Neutrality" id="id-379fcadd6ea74ce69296be4e26cc32aa">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Laws and regulations are technology neutral Regulations tied to a particular technology may quickly become obsolete and require further amendment. Also, technology-specific regulations lead to dependency on specific manufacturers, developers, suppliers or distributors of technology or services. It guarantees freedom of choice by not forcing users into using any specific technology.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Technological neutrality and data portability Underlying Principle (5) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/technological-neutrality-and-data-portability
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/technology-neutrality
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:TechnologyNeutralityPrinciple
 
-Title: Administrative Simplification
+Title: Technology Neutrality
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:TechnologyNeutralityPrinciple"/>
@@ -19680,27 +19685,27 @@ ABB name: eira:InclusionPrinciple
       <property key="dct:type" value="eira:InclusionPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="EU Localisation Framework compliance" id="id-45689ed33f93464e9111ed27fd2119b2">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: EU Localisation Framework compliance refers to digital public services being compliant and implementing the INSPIRE directive and the different requirements stated in the regulation.  The EU Localisation Framework concept consists of a package of case studies, specifications, guidelines, training materials, recommendations and actions required by public administrations and stakeholder communities to facilitate the implementation, use and expansion of INSPIRE in an e-government context. Public Administrations and stakeholders need to follow the different guidelines, implement the specifications and foster training for the understanding of INSPIRE directive.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: European Union Location Framework (EULF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://inspire.ec.europa.eu/eulf/31 
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
+Identifier: http://data.europa.eu/2sa/elap/eu-localisation-framework-compliance
 
 LOST view: TVA-Functional Architecture Principles
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:eu-localisation-framework-compliance
 
-Title: Administrative Simplification
+Title: EU Localisation Framework compliance
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:eu-localisation-framework-compliance"/>
@@ -19927,27 +19932,25 @@ dct:identifier: http://data.europa.eu/dr8/egovera/EuropeanDataSharingPrinciplesP
       <property key="eira:eifLayer" value="N/A"/>
     </element>
     <element xsi:type="archimate:Principle" name="Integrated Horizontal User Experience" id="id-5f15546a72b84843ba269b07ceeb4d33">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Users have an integrated experience of digital public services Users should be optimally supported in their tasks. They should not be bothered by the fact that multiple organizations, processes or applications are needed to support these tasks. Users of digital public services experience one user interface which supports them in the execution of their tasks, and which feels like one application.Users are not confronted with duplicate steps or data entry in the execution of their tasks.Users need to only log in once to execute their tasks.&quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: eID Building Block of DIGITAL Europe
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2019/07/02/Improving+the+user+experience+of+cross-border+eID
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/integrated-horizontal-user-experience
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:IntegratedHorizontalUserExperiencePrinciple
 
-Title: Administrative Simplification
+Title: Integrated Horizontal User Experience
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:IntegratedHorizontalUserExperiencePrinciple"/>
@@ -20034,27 +20037,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Code of ethics compliance" id="id-660bd013c6424739bae0e5ce49c39336">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Code of ethics compliance refers to the expression of important values and standards that are also to be found in the law, but not only aspects related to legally-binding issues. A code of ethics is a written set of expectations that an organization has for its employees to conduct business in an honest manner. Ethics are values and principles that govern behaviour or conduct. Apart from legislation, the European foundational text \&quot;Treaty on the Functioning of the European Union\&quot; sets up the different terms and relevant aspects for the proper function of the European Union. All public services provided by public administrations under European Union must be aligned and fully compliant with European Union values.  All initiatives and services need to be aligned and compliant with European Union values.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: European Ombudsman
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://www.ombudsman.europa.eu/en/speech/en/49379;https://ec.europa.eu/commission/presscorner/detail/en/IP_22_452
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/code-ethics-compliance
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:CodeOfEthicsCompliancePrinciple
 
-Title: Administrative Simplification
+Title: Code of ethics compliance
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:CodeOfEthicsCompliancePrinciple"/>
@@ -20107,27 +20108,34 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Neo-Weberian-State approach (NWS)" id="id-7664099c334b47d3a717b6e0dfc7b28e">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Ensure the evolution of society and eGovernment by implementing means for the achievement of the purpose, specifically for inclusion and equitative public service, resilience towards crises and efficient and effective innovation.  NWS is a hierarchy-driven system within a hierarchy-market-network space. This NWS (based and driven by hierarchy) then moved to one of the normative reform models. The Neo-Weberian-State approach is focused an aimed to ensure three main core principles, that are specifically relevant to the development of eGovernment and societies:  inclusive and equitable service delivery, resilient crises governance, and effective innovation for government and society. The application of the principle or the work towards the approach is a key enabler for digital and healthy societies, where users and the overall society is taken into account, and put on the focus on the development of Digital Public Services.  Public administrations need to promote and implement policies, and legal instruments that guide the creation of inclusive and equitable service delivery, resilient crises governance, and effective innovation for government and society.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: \&quot;The neo-Weberian state: From ideal type model to reality?\&quot; by UCL Institute for Innovation and Public Purpose
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://www.ucl.ac.uk/bartlett/public-purpose/sites/bartlett_public_purpose/files/bouckaert_g._2022_the_neo-weberian_state_from_ideal_type_model_to_reality_0.pdf
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
+Identifier: http://data.europa.eu/2sa/elap/neo-weberian-state-approach
 
-LOST view: TVA-Functional Architecture Principles
+LOST view: TVA-Governance Architecture Principles
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:neo-weberian-state-approach
 
-Title: Administrative Simplification
+Title: Neo-Weberian-State approach (NWS)
+
+Additional information: NWS is a hierarchy-driven system within a hierarchy-market-network space. This NWS (based and driven by hierarchy) then moved to one of the normative reform models. 
+
+The Neo-Weberian-State approach is focused an aimed to ensure three main core principles, that are specifically relevant to the development of eGovernment and societies:  inclusive and equitable service delivery, resilient crises governance, and effective innovation for government and society. 
+
+The application of the principle or the work towards the approach is a key enabler for digital and healthy societies, where users and the overall society is taken into account, and put on the focus on the development of Digital Public Services. 
+The UCL Institute for Innovation and Public Purpose is focused on the development and research of how digital platforms and services can improve societies. 
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:neo-weberian-state-approach"/>
@@ -20250,27 +20258,27 @@ EIF Layer: N/A
       <property key="eira:eifLayer" value="N/A"/>
     </element>
     <element xsi:type="archimate:Principle" name="Data Portability" id="id-7feb887a60b442cb8b71be705634b098">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Data portability is ensured. The functioning of the digital single market requires data to be easily transferable among different systems to avoid lock-in and support the frthe movement of data. This requirement relates to data portability - the ability to move and reuse data easily among different applications and systems, which becomes even more challenging in cross-border scenarios.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Technological neutrality and data portability Underlying Principle (5) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/technological-neutrality-and-data-portability
 
-Last modification: 2024-01-17
+Last modification: 2024-03-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
+Identifier: http://data.europa.eu/2sa/elap/data-portability
 
 LOST view: TVA-Functional Architecture Principles
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:data-portability
 
-Title: Administrative Simplification
+Title: Data portability
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:data-portability"/>
@@ -20561,27 +20569,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Openness" id="id-c1b0e80aeda44775bf324a4a49a8d5be">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: In the context of interoperable public services, the concept of openness mainly relates to data, specifications and software. This principle is based on three pillars: the openness of public administrations data, the openness of the software used and implemented and the openness of standards and specifications used to develop digital public services. Refers to the idea that all public data should be freely available for use and reuse by others unless restrictions apply e.g. for the protection of personal data, confidentiality, or intellectual property rights. Also, refers to ensuring a level playing field for open-source software and demonstrating active and fair consideration of using open-source software, taking into account the total cost of ownership of the solution.And last but not least, give preference to open specifications, taking due account of the coverage of functional needs, maturity and market support and innovation.&quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Openness Underlying Principle (2) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/openness
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:OpennessPrinciple
 
-Title: Administrative Simplification
+Title: Openness
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:OpennessPrinciple"/>
@@ -20674,27 +20680,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Proactiveness" id="id-c5e6cb914f47476c992261bab315b662">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Proactiveness refers to proactive services, which are public services that a public institution delivers following its own initiatives. European institutions and public administrations throughout Europe, are reference actors and roles that can lead the environment on digital public services and also on the use of available data for the creation of innovative services taking as basis life, business events and circumstances. There is an increasing amount of data from citizens, businesses and other stakeholders that European institutions can leverage to think and create digital public services according to users needs (citizens or businesses). For the implementation of proactiveness on digital public services, making proactive public services, there are implications at different levels such as:At the legal level, ensure that the data used is treated and managed following the correspondent legal clauses;At the organisational level, ensure that digital capabilities are instantiated by services aligned with user needs and following the correspondent agreement between parties to ensure data sovereignty;At the legal interoperability, ensure that data is properly described and following the current approaches for semantic interoperability; and,At the technical level, ensure that proper technical application and technology services are available to reuse and deliver those services. &quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Joinup
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/proactiveness
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:ProactivenessPrinciple
 
-Title: Administrative Simplification
+Title: Proactiveness
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:ProactivenessPrinciple"/>
@@ -20754,27 +20758,25 @@ ABB Specialised: http://data.europa.eu/dr8/ArchitecturePrinciple
       <property key="skos:broader" value="http://data.europa.eu/dr8/ArchitecturePrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Multilingualism" id="id-e544d5a744ac4e7691a8391aec14aca3">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: European digital public services are multilingual.&quot;@en, &quot;European public services can potentially be used by anyone in any Member State. So multilingualism needs to be carefully considered when designing them. Citizens across Europe often have problems accessing and using digital public services if these are not available in the languages they speak.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Multilingualism Underlying Principle (9) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/multilingualism
 
-Last modification: 2024-01-17
+Last modification: 2024-03-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/multilingualism
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:MultilingualismPrinciple
 
-Title: Administrative Simplification
+Title: Multilingualism
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:MultilingualismPrinciple"/>
@@ -20789,27 +20791,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="User-centricity" id="id-ecd3a2644c6244d7b800aaf93b136e08">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: The design of digital public services is centred around their users. Users of European public services are meant to be any public administration, citizen or business accessing and benefiting from the use of these services. Users’ needs should be considered when determining which public services should be provided and how they should be delivered. Therefore, as far as possible, user needs and requirements should guide the design and development of public services. A multi-channel service delivery approach, meaning the availability of alternative channels, physical and digital, to access a service, is an important part of public service design, as users may prefer different channels depending on the circumstances.A single point of contact should be made available to users, to hide internal administrative complexity and facilitate access to public services, e.g. when multiple bodies have to work together to provide a public service.Users’ feedback should be systematically collected, assessed and used to design new public services and to improve existing ones further.As far as possible, under the legislation in force, users should be able to provide data once only, and administrations should be able to retrieve and share this data to serve the user, in accordance with data protection rules.Users should be asked to provide only the information that is absolutely necessary to obtain a given public service.&quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: User-Centricity Underlying Principle (6) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/user-centricity
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/user-centricity
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:User-centricityPrinciple
 
-Title: Administrative Simplification
+Title: User-centricity
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:User-centricityPrinciple"/>
@@ -20824,27 +20824,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="EU Legislation Compliance" id="id-ed2fbfe48efc4b189fb6bef4a25461be">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: EU Legislation Compliance is the property of (national/local) legislation to be coherent or to implement European legislation. Member States play a key role in ensuring EU law is implemented correctly and in a timely manner. This is essential for people and businesses to optimally benefit from commonly agreed rules. A compliance assessment of EU Directives must be carried out in two stages:(1) timely and systematic check whether Member States have transposed Union law;(2) a timely and systematic conformity check of national transposing measures against the relevant Union legislation (correct transposition). While Member States are responsible for the timely and accurate transposition of directives as well as the correct application of the entire acquis, the Commission has to monitor the Member States’ efforts and ensure that their legislation complies with Union law.&quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: COM(2017) 134 final ANNEX 2 COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS European Interoperability Framework - Implementation Strategy
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://eur-lex.europa.eu/resource.html?uri=cellar:2c2f2554-0faf-11e7-8a35-01aa75ed71a1.0017.02/DOC_3&amp;format=PDF
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/eu-legislation-compliance
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:EULegislationCompliancePrinciple
 
-Title: Administrative Simplification
+Title: EU Legislation Compliance
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:EULegislationCompliancePrinciple"/>
@@ -20859,27 +20857,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Service Orientation" id="id-f0928cea815448589c7f6e24bf766342">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Service orientation is a way of thinking in terms of services and service-based development and the outcomes of services. Being user-centred or remaining \&quot;user-led,\&quot; is possible with a service-oriented strategy. It entails offering services that employ the best technological solutions to provide better results. By making this change, the organization will put user demands and goals at the centre of its vision, culture, and operations. After then, make sure that everyone supports it and owns it so that decisions and technology are driven by user demands.A service-oriented strategy entails developing an IT platform made up of numerous systems, each one tailored to carry out particular tasks. You can change one aspect of a systems functionality with a tech stack made up of separate components without changing the operation of the entire system. Certain components can be digitalized more quickly because of this function fragmentation, which also offers a distribution strategy that allows for independently distributed functions. Communication with external programs is also made possible by separate systems where each software tool is designed to carry out a specific task using a well-defined interface.There are a variety of technologies that can be applied to this service orientation approach such as SOAP, REST API and GraphQL.  At the organisational level, public administrations need to establish the proper agreements that allow collaboration and common mechanisms to provide relevant information through the desired Service Oriented Architecture. At the technical level, the organisations in charge of implementing and delivery of digital public services will need to determine which is the best approach to fit their needs. There are different approaches such as SAP, RESTApi or GraphQL, taking into account the relevant aspects of the services, the organisation responsible for the service should select the more sustainable and efficient way of implementing the SOA approach. &quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Open Group
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://web.archive.org/web/20160819141303/http://opengroup.org/soa/source-book/soa/soa.htm
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/service-orientation
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:ServiceOrientationPrinciple
 
-Title: Administrative Simplification
+Title: Service Orientation
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:ServiceOrientationPrinciple"/>
@@ -20937,27 +20933,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Convergence assurance on public policy goals attainment" id="id-f68143f31f094ce8906b0fc3dd3758b4">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: The assessment of the effective realisation of public services, based on public policies, by evaluating various technological solutions when striving to ensure the effectiveness and efficiency of European public services. Digital public services should be the result of public policies based on real constructed and relevant societal needs. Therefore, it is relevant to ensure efficiency and effectiveness in the delivery of public services. For this reason, public administration has the duty of evaluating and ensuring that the resources are dedicated to the implementation and delivery of digital public services that are aligned with public policies and their objectives. In addition to the alignment of digital public services with public policies goal, there is the need to assess the efficiency of the service and the elements involved, to ensure that the investment done is proportionate to the societal needs and the relevance and value the service provides Evaluate the effectiveness and efficiency of different interoperability solutions and technological options considering user needs, proportionality and balance between costs and benefits.
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Assessment of Effectiveness and Efficiency Underlying Principle (12) of the European Interoperability Framework (EIF)
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/assessment-effectiveness-and-efficiency
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/convergence-assurance-public-policy-goals-attainment
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:ConvergenceAssuranceOnPublicPolicyGoalsAttainmentPrinciple
 
-Title: Administrative Simplification
+Title: Convergence assurance on public policy goals attainment
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:ConvergenceAssuranceOnPublicPolicyGoalsAttainmentPrinciple"/>
@@ -20972,27 +20966,25 @@ ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
       <property key="skos:broader" value="eira:EuropeanLibraryofArchitecturePrinciplesPrinciple"/>
     </element>
     <element xsi:type="archimate:Principle" name="Once Only" id="id-fdbbdbed7d10417887f6fd62b15d0e1c">
-      <documentation>Definition: Where possible, public administrations should seek to streamline and simplify their administrative processes by improving them or eliminating any that do not provide public value. Administrative simplification means, where possible, streamlining and simplifying administrative processes by improving them or eliminating anything that does not provide public value. Administrative simplification can help businesses and citizens to reduce the administrative burden of complying with EU legislation or national obligations.Digitisation of public services should take place in accordance with the following concepts:• digital-by-default, whenever appropriate, so that there is at least one digital channel available for accessing and using a given European public service;• digital-first which means that priority is given to using public services via digital channels while applying the multi-channel delivery concept and the no-wrong-door policy, i.e. physical and digital channels co-exist. Simplify processes and use digital channels whenever appropriate for thedelivery of European public services, to respond promptly and with highquality to users’ requests and reduce the administrative burden on publicadministrations, businesses and citizens.&quot;&quot;
+      <documentation>Definition: Citizens and businesses provide public administrations data only once Requesting the data multiple times leads to an unnecessary administrative burden for citizens and businesses. It also leads to multiple administrations of the same data, with a high risk of inconsistency and low data quality. It is essential that the data that public administrations use is of good quality, in order to prevent errors and delays in processes and provide high-quality services. There is a central metadata administration of all the datasets that public administration bodies have available for reuse.Public administration bodies first determine whether specific data elements are available for reuse before they decide to collect them.Data that can be reused from other public administrations are not requested from citizens or businesses but simply referred to.&quot;&quot;
 
-Source: Administrative Simplification Underlying Principle (10) of the European Interoperability Framework (EIF)
+Source: Once Only Principle of DIGITAL Europe
 
-Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/administrative-simplification
+Source reference: https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Once+Only+Principle
 
 Last modification: 2024-01-17
 
-Identifier: http://data.europa.eu/2sa/elap/administrative-simplification
-
-LOST view: TVA-Functional Architecture Principles
+Identifier: http://data.europa.eu/2sa/elap/once-only
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-ABB name: elap:administrative-simplification
+ABB name: elap:OnceOnlyPrinciple
 
-Title: Administrative Simplification
+Title: Once Only
 
 EIF Layer: N/A
 
-ABB Specialised: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
+skos:broader: eira:EuropeanLibraryofArchitecturePrinciplesPrinciple
 
 </documentation>
       <property key="dct:type" value="elap:OnceOnlyPrinciple"/>
