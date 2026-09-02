@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Recovery</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Recovery</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-TechnologyService"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-TechnologyService" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: A Recovery ABB is a technology service that enables the restoration of infrastructure, platforms, and services to an operational state after failures, cyber incidents, or disasters. It supports backup restoration, failover, and continuity mechanisms to ensure that digital public services can be resumed within defined recovery time and recovery point objectives.
+
+Last modification: 2026-01-26
+
+Identifier: http://data.europa.eu/dr8/RecoveryTechnologyService
+
+LOST view: Technical view  Infrastructure
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+ABB name: eira:RecoveryTechnologyService
+
+Additional identifier: http://data.europa.eu/dr8/RecoveryTechnologyService
+
+Synonym: Disaster Recovery , Service Recovery , System Recovery , Infrastructure Recovery , Business Continuity Support
+
+Example: Backup and restore platforms ,site failover systems , snapshot-based recovery , Azure Site Recovery ,AWS Elastic Disaster Recovery ,  on-premise DR systems
+
+Interoperability Saliency: The Recovery ABB is salient for technical interoperability because it enables continuity of digital public services across different infrastructures and jurisdictions. By abstracting recovery capabilities from specific hosting environments, it allows Member States to implement disaster recovery and failover strategies in cloud, on-premise, or hybrid facilities while preserving service availability and cross-border service reliability.
+
+Additional information: Recovery focuses on restoring technical service availability after incidents. It complements but does not replace business-level continuity planning or application-level fault-tolerance, which are handled in higher architecture layers.
+
+Interoperability Dimension: Structural IoP
+
+EIF Layer: TechnicalInfrastructure
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/RecoveryTechnologyService</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:RecoveryTechnologyService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-01-26</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/RecoveryTechnologyService</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Disaster Recovery , Service Recovery , System Recovery , Infrastructure Recovery , Business Continuity Support</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">A Recovery ABB is a technology service that enables the restoration of infrastructure, platforms, and services to an operational state after failures, cyber incidents, or disasters. It supports backup restoration, failover, and continuity mechanisms to ensure that digital public services can be resumed within defined recovery time and recovery point objectives.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Backup and restore platforms ,site failover systems , snapshot-based recovery , Azure Site Recovery ,AWS Elastic Disaster Recovery ,  on-premise DR systems</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Recovery ABB is salient for technical interoperability because it enables continuity of digital public services across different infrastructures and jurisdictions. By abstracting recovery capabilities from specific hosting environments, it allows Member States to implement disaster recovery and failover strategies in cloud, on-premise, or hybrid facilities while preserving service availability and cross-border service reliability.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Recovery focuses on restoring technical service availability after incidents. It complements but does not replace business-level continuity planning or application-level fault-tolerance, which are handled in higher architecture layers.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view  Infrastructure</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TechnicalInfrastructure</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-26adaffa">
+																	<td><a href="../views/id-26adaffa.html" target="view" title="Technical view - infrastructure"> Technical view - infrastructure </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-afde80de4c18412e9a080ab5c459f6f7.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-fcf0962254e8485b829b471ea77703d3.html" target="element"> Storage Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-fd15ecb6384945fe84b354ab02553570.html" target="element"> Recovery</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
