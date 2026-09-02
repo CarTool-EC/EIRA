@@ -54,25 +54,29 @@ Source: eIDAS - REGULATION (EU) No 910/2014 OF THE EUROPEAN PARLIAMENT AND OF TH
 
 Source reference: (http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0073.01.ENG)
 
+Last modification: 2024-01-28
+
+Identifier: http://data.europa.eu/dr8/IdentificationApplicationComponent
+
+LOST view: Technical view - application
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+ABB name: eira:IdentificationApplicationComponent
+
 Synonym: Authentication Component
 
 Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): OpenIAM Identity Manager - The OpenIAM Identity Manager automates the task of managing identities across the various devices and applications used by the enterprise. This includes applications within the enterprise such as Active Directory and Exchange, and cloud based applications such as Google Apps. OpenIAM Identity Manager provides capabilities such as: &#8226;	Provisioning, De-provisioning, Workflow; &#8226;	Password Management, Password Policies, Synchronization; &#8226;	Self-Service, allowing locked users to reset their accounts, manage their profiles, challenge response security questions; &#8226;	Audit, Attestation, Reporting; &#8226;	Delegated Administration.(http://www.openiam.com/products/identity-manager/idm-overview/)
 
-IoP Dimension: Structural IoP
+Interoperability Saliency: The Identification Component ABB &#160;is salient for technical interoperability because it provides the functionalities of user authentication. 
 
-LOST view: Technical view - application
+Interoperability Dimension: Structural IoP
 
-Interoperability saliency: The Identification Component ABB &#160;is salient for technical interoperability because it provides the functionalities of user authentication. 
+Viewpoint: Interoperability Security viewpoint
 
-Identifier: http://data.europa.eu/dr8/IdentificationApplicationComponent
+Additional identifier: http://data.europa.eu/dr8/IdentificationApplicationComponent
 
-eira:ID: ABB158
-
-ABB name: eira:IdentificationApplicationComponent
-
-EIRA concept: eira:ArchitectureBuildingBlock
-
-Last modification: 2022-20-01
+EIF Layer: TechnicalApplication
 
 </div>
 					</div>
@@ -99,11 +103,14 @@ Last modification: 2022-20-01
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-6a8b3a5a">
-																	<td><a href="../views/id-6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
-																	<td><span class="i18n-viewpoint-" /></td>
-																</tr><tr id="used-in-views-id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a">
+								<tr id="used-in-views-id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a">
 																	<td><a href="../views/id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a.html" target="view" title="Interoperability Security viewpoint"> Interoperability Security viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-fcfb8e9b6d5546f9b785871557fd523a">
+																	<td><a href="../views/id-fcfb8e9b6d5546f9b785871557fd523a.html" target="view" title="Interoperability Structural viewpoint"> Interoperability Structural viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-6a8b3a5a">
+																	<td><a href="../views/id-6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -120,25 +127,24 @@ Last modification: 2022-20-01
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-2ec94896.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-76e9237f.html" target="element"> Identification</a></td>
-											<td><a href="../elements/id-8efdaa5f.html" target="element"> Registration</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-a7c1d464.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-76e9237f.html" target="element"> Identification</a></td>
-											<td><a href="../elements/id-5cc1f0dc.html" target="element"> Authentication</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-f731611308954bee85bdebdd85ca198a.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-76e9237f.html" target="element"> Identification</a></td>
-											<td><a href="../elements/id-14cce6f32ab8402f8eaffe0b8e815fdc.html" target="element"> Request Validation</a></td>
-										</tr>
-									<tr>
 											<td><a href="../elements/id-1794bfc6fc474e82a2a93ef5b76bc308.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-b2277944c9764e57a655b3e78dfba414.html" target="element"> Identification and Access Enablers</a></td>
+											<td><a href="../elements/id-76e9237f.html" target="element"> Identification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7131507e4e234c618ee96f2cae9e3dc1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-5cc1f0dc.html" target="element"> Authentication</a></td>
+											<td><a href="../elements/id-76e9237f.html" target="element"> Identification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8eb0e6816209499db9a578bec3e13e8a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-14cce6f32ab8402f8eaffe0b8e815fdc.html" target="element"> Request Validation</a></td>
+											<td><a href="../elements/id-76e9237f.html" target="element"> Identification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b1adfc36d0344bf8b7cc72d487127bbe.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-8efdaa5f.html" target="element"> Registration</a></td>
 											<td><a href="../elements/id-76e9237f.html" target="element"> Identification</a></td>
 										</tr>
 							</tbody>

@@ -54,23 +54,27 @@ Source: Eurostat Data Validation
 
 Source reference:  http://ec.europa.eu/eurostat/data/data-validation
 
-Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Hibernate Validator - Express validation rules in a standardized way using annotation-based constraints and benefit from transparent integration with a wide variety of frameworks. Application layer agnostic validation: Hibernate Validator allows to express and validate application constraints. The default metadata source are annotations, with the ability to override and extend through the use of XML. It is not tied to a specific application tier or programming model and is available for both server and client application programming. Hibernate Validator presents the following characteristics: &#8226;	Extendable: Hibernate Validator offers a configurable bootstrap API as well as a range of built-in constraints. The latter can easily be extended by creating custom constraints; &#8226;	Rich metadata API: Hibernate Validator gives access to constraint configuration via a metadata API facilitating, for example, tooling integration; &#8226;	Reference implementation: Hibernate Validator 6.x is the reference implementation Bean Validation 2.0; &#8226;	Added value: Hibernate Validator offers additional value on top of the features required by Bean Validation. For example, a programmatic constraint configuration API as well as an annotation processor which plugs into the build process and raises compilation errors whenever constraint annotations are incorrectly used. http://hibernate.org/validator/
-
-IoP Dimension: Structural IoP
-
-LOST view: Technical view - application
-
-Interoperability saliency: The Data Quality Component ABB &#160;is salient for technical interoperability because it allows the implementation of the functionality to validate if data received (or to be sent) is compliant with common and agreed interoperable formats as stated in the EIF recommendation n&#176; 41: "Establish procedures and processes to integrate the opening of data in your common business processes, working routines, and in the development of new information systems."
+Last modification: 2024-01-28
 
 Identifier: http://data.europa.eu/dr8/DataQualityApplicationComponent
 
-eira:ID: ABB63
-
-ABB name: eira:DataQualityApplicationComponent
+LOST view: Technical view - application
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-Last modification: 2022-23-01
+ABB name: eira:DataQualityApplicationComponent
+
+Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Hibernate Validator - Express validation rules in a standardized way using annotation-based constraints and benefit from transparent integration with a wide variety of frameworks. Application layer agnostic validation: Hibernate Validator allows to express and validate application constraints. The default metadata source are annotations, with the ability to override and extend through the use of XML. It is not tied to a specific application tier or programming model and is available for both server and client application programming. Hibernate Validator presents the following characteristics: &#8226;	Extendable: Hibernate Validator offers a configurable bootstrap API as well as a range of built-in constraints. The latter can easily be extended by creating custom constraints; &#8226;	Rich metadata API: Hibernate Validator gives access to constraint configuration via a metadata API facilitating, for example, tooling integration; &#8226;	Reference implementation: Hibernate Validator 6.x is the reference implementation Bean Validation 2.0; &#8226;	Added value: Hibernate Validator offers additional value on top of the features required by Bean Validation. For example, a programmatic constraint configuration API as well as an annotation processor which plugs into the build process and raises compilation errors whenever constraint annotations are incorrectly used. http://hibernate.org/validator/
+
+Interoperability Saliency: The Data Quality Component ABB &#160;is salient for technical interoperability because it allows the implementation of the functionality to validate if data received (or to be sent) is compliant with common and agreed interoperable formats as stated in the EIF recommendation n&#176; 41: "Establish procedures and processes to integrate the opening of data in your common business processes, working routines, and in the development of new information systems."
+
+Interoperability Dimension: Structural IoP
+
+Viewpoint: Interoperability Privacy viewpoint
+
+Additional identifier: http://data.europa.eu/dr8/DataQualityApplicationComponent
+
+EIF Layer: TechnicalApplication
 
 </div>
 					</div>
@@ -100,6 +104,9 @@ Last modification: 2022-23-01
 								<tr id="used-in-views-id-6a8b3a5a">
 																	<td><a href="../views/id-6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-fcfb8e9b6d5546f9b785871557fd523a">
+																	<td><a href="../views/id-fcfb8e9b6d5546f9b785871557fd523a.html" target="view" title="Interoperability Structural viewpoint"> Interoperability Structural viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
 																</tr><tr id="used-in-views-id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6">
 																	<td><a href="../views/id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6.html" target="view" title="Interoperability Privacy viewpoint"> Interoperability Privacy viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
@@ -118,15 +125,14 @@ Last modification: 2022-23-01
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-475c953f.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-ea5bedf1.html" target="element"> Data Quality</a></td>
-											<td><a href="../elements/id-7411635a.html" target="element"> Data Quality</a></td>
-										</tr>
-									<tr>
 											<td><a href="../elements/id-0a1d74538a5d4004a9d0ed9fdefae7db.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-32f5f50aefd84a1f98bed2ec6db3b608.html" target="element"> Data Management Enablers</a></td>
+											<td><a href="../elements/id-ea5bedf1.html" target="element"> Data Quality</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a667aa7cd0bf402088ca0e645119e120.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-7411635a.html" target="element"> Data Quality</a></td>
 											<td><a href="../elements/id-ea5bedf1.html" target="element"> Data Quality</a></td>
 										</tr>
 							</tbody>

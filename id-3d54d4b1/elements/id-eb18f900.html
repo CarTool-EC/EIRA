@@ -54,23 +54,27 @@ Source: EIFv2
 
 Source reference: http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf
 
-Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): XMLGate - XMLGate is a Web service application used to validate an XML instance against a well-defined schema. The XML flow is submitted either via a PDF form or by uploading the XML file.(https://webgate.ec.europa.eu/sanco-xmlgate/Login.jsp;jsessionid=2MPn_N5Wg9Dar4_W2-yVL_Xg-VlW3kn47PLVbNise9X5Kycx1yLI!-25226473)
-
-IoP Dimension: Behavioral IoP
-
-LOST view: Technical view - Infrastructure
-
-Interoperability saliency: The Data Exchange Service ABB is a key interoperability enabler (*) for behavioural and technical interoperability because it provides secure and trustworthy data exchange between different ICT systems as stated in the EIF: "Define a common security and privacy framework and establish processes for public services to ensure secure and trustworthy data exchange between public administrations and in interactions with citizens and businesses."
+Last modification: 2024-01-28
 
 Identifier: http://data.europa.eu/dr8/DataExchangeApplicationService
 
-eira:ID: ABB43
-
-ABB name: eira:DataExchangeApplicationService
+LOST view: Technical view - application
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-Last modification: 2022-18-01
+ABB name: eira:DataExchangeApplicationService
+
+Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): XMLGate - XMLGate is a Web service application used to validate an XML instance against a well-defined schema. The XML flow is submitted either via a PDF form or by uploading the XML file.(https://webgate.ec.europa.eu/sanco-xmlgate/Login.jsp;jsessionid=2MPn_N5Wg9Dar4_W2-yVL_Xg-VlW3kn47PLVbNise9X5Kycx1yLI!-25226473)
+
+Interoperability Saliency: The Data Exchange Service ABB is a key interoperability enabler (*) for behavioural and technical interoperability because it provides secure and trustworthy data exchange between different ICT systems as stated in the EIF: "Define a common security and privacy framework and establish processes for public services to ensure secure and trustworthy data exchange between public administrations and in interactions with citizens and businesses."
+
+Interoperability Dimension: Behavioral IoP
+
+Viewpoint: Interoperability Security viewpoint
+
+Additional identifier: http://data.europa.eu/dr8/DataExchangeApplicationService
+
+EIF Layer: TechnicalApplication
 
 </div>
 					</div>
@@ -97,17 +101,20 @@ Last modification: 2022-18-01
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a">
-																	<td><a href="../views/id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a.html" target="view" title="Interoperability Security viewpoint"> Interoperability Security viewpoint </a></td>
+								<tr id="used-in-views-id-1d09ec8133424608b95f8e541b2b0d5f">
+																	<td><a href="../views/id-1d09ec8133424608b95f8e541b2b0d5f.html" target="view" title="Interoperability Behavioural viewpoint"> Interoperability Behavioural viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
-																</tr><tr id="used-in-views-id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6">
-																	<td><a href="../views/id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6.html" target="view" title="Interoperability Privacy viewpoint"> Interoperability Privacy viewpoint </a></td>
+																</tr><tr id="used-in-views-id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a">
+																	<td><a href="../views/id-0ff3cc70-dfff-4f6b-b337-e1de7d5d0f5a.html" target="view" title="Interoperability Security viewpoint"> Interoperability Security viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr><tr id="used-in-views-id-6a8b3a5a">
 																	<td><a href="../views/id-6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr><tr id="used-in-views-id-9eb984cb">
 																	<td><a href="../views/id-9eb984cb.html" target="view" title="Key Interoperability Enablers viewpoint"> Key Interoperability Enablers viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6">
+																	<td><a href="../views/id-3ef335df-07d2-4df9-a530-6fc6b81c2fa6.html" target="view" title="Interoperability Privacy viewpoint"> Interoperability Privacy viewpoint </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -128,6 +135,11 @@ Last modification: 2022-18-01
 											<td><span class="i18n-elementtype-AccessRelationship" /></td>
 											<td><a href="../elements/id-eb18f900.html" target="element"> Data Exchange</a></td>
 											<td><a href="../elements/id-c682a79a.html" target="element"> Data</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-044ffd222d164552841effaa35d70739.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-eb18f900.html" target="element"> Data Exchange</a></td>
+											<td><a href="../elements/id-e3993b25.html" target="element"> Data Exchange</a></td>
 										</tr>
 									<tr>
 											<td><a href="../elements/id-ace90ae985034894927ccad2e9eb2ecb.html" target="element" title=""></a></td>
@@ -138,11 +150,6 @@ Last modification: 2022-18-01
 											<td><a href="../elements/id-4e5fe879d3b746c7b5d03083206daee0.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-643c94f3b9ca4067ac18d5ae7cb0571b.html" target="element"> Data Exchange Enablers</a></td>
-											<td><a href="../elements/id-eb18f900.html" target="element"> Data Exchange</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-aa1dbc41.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
-											<td><a href="../elements/id-e3993b25.html" target="element"> Data Exchange</a></td>
 											<td><a href="../elements/id-eb18f900.html" target="element"> Data Exchange</a></td>
 										</tr>
 							</tbody>
