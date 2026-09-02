@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Credential Issuance Service</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Credential Issuance Service</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-ApplicationService"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-ApplicationService" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Credential Issuance Service ABB is an Application Service that issues Verifiable Credentials to a Holder, including policy evaluation, credential generation, cryptographic signing, and delivery to a wallet through standard protocols.
+
+Source: Inspired by W3C Verifiable Credentials
+
+Last modification: 2026-02-04
+
+Identifier: http://data.europa.eu/dr8/CredentialIssuanceServiceApplicationService
+
+LOST view: Technical view - application
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+ABB name: eira:CredentialIssuanceServiceApplicationService
+
+Synonym: Issuance Service
+
+Example: An issuance endpoint that delivers a signed Residence credential to the citizen&#8217;s wallet using standard issuance protocols supported by EUDI Wallet ecosystems.
+
+Interoperability Saliency: Enables interoperable issuance across Member States by relying on shared credential models and standard signing / exchange mechanisms.
+
+Interoperability Dimension: Structural IoP
+
+Additional identifier: http://data.europa.eu/dr8/CredentialIssuanceServiceApplicationService
+
+EIF Layer: TechnicalApplication
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/CredentialIssuanceServiceApplicationService</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:CredentialIssuanceServiceApplicationService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-02-04</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Issuance Service</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Credential Issuance Service ABB is an Application Service that issues Verifiable Credentials to a Holder, including policy evaluation, credential generation, cryptographic signing, and delivery to a wallet through standard protocols.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Inspired by W3C Verifiable Credentials</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">An issuance endpoint that delivers a signed Residence credential to the citizen&#8217;s wallet using standard issuance protocols supported by EUDI Wallet ecosystems.</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Enables interoperable issuance across Member States by relying on shared credential models and standard signing / exchange mechanisms.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view - application</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/CredentialIssuanceServiceApplicationService</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TechnicalApplication</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-6a8b3a5a">
+																	<td><a href="../views/id-6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-fcfb8e9b6d5546f9b785871557fd523a">
+																	<td><a href="../views/id-fcfb8e9b6d5546f9b785871557fd523a.html" target="view" title="Interoperability Structural viewpoint"> Interoperability Structural viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-6c31403757f84469a304bc7a5f85de2a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-29be915b47c64f6b8fa09f562cf30785.html" target="element"> Credential Issuance Service</a></td>
+											<td><a href="../elements/id-ffe025cc9e91459bb58ff6dfd2ceb0dd.html" target="element"> Digital Identity Wallet Service</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-fef77cb7689846dfb6d03a9ca58da693.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-c6cc3c88301c4bb8a4e02f6d50becd53.html" target="element"> Credential Revocation Service</a></td>
+											<td><a href="../elements/id-29be915b47c64f6b8fa09f562cf30785.html" target="element"> Credential Issuance Service</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cc12a820284a47ceb9f3739144d49bc3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssignmentRelationship" /></td>
+											<td><a href="../elements/id-da0bc7558c604879850039bf4a3f2398.html" target="element"> Self-Soverign Identity </a></td>
+											<td><a href="../elements/id-29be915b47c64f6b8fa09f562cf30785.html" target="element"> Credential Issuance Service</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-70e40cd8253142dbb47c03fd93ad527d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-e71d13dffe724fb69713c1e2fa9744ca.html" target="element"> Credential Issuer</a></td>
+											<td><a href="../elements/id-29be915b47c64f6b8fa09f562cf30785.html" target="element"> Credential Issuance Service</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
