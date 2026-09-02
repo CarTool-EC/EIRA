@@ -8,7 +8,7 @@
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
 	<!-- BOOTSTRAP -->
 	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
-	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
 	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
@@ -48,10 +48,9 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">The [Solution design of a target digital public service] is a view that defines the technological architecture of the service. It outlines the components of the service, how they will be integrated, and how they will communicate with each other. The solution design also includes a description of the service user interface (UI) and a plan for testing and deployment.
-A documentation of an existing digital public service is a similar document, but it focuses on the current state of the service. It includes a description of the service's functionality, the technical infrastructure that supports it, and the processes that are involved in delivering the service.
-Both types of documents are important for ensuring that digital public services are interoperable, which means that they can exchange data and work together seamlessly. The European Interoperability Reference Architecture (EIRA) is a set of guidelines that can be used to develop interoperable digital public services.
-</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">The [Solution design of a target digital public service/Documentation of an existing digital public service] group represents and defines the documentation of the technical application architecture of a digital public service, showing how it achieves interoperability. An Interoperable Digital Solution comprises the complete application structure, including Application Presentation Enablers (Machine-to-Machine interfaces for system integration and Human Interfaces for end-user interaction), internal Digital Solution components that communicate with each other, and Solution Building Blocks that provide reusable architectural functionality. 
+
+For new services, this view guides the design and implementation decisions. For existing services, it documents the current technical architecture to support assessment, maintenance, evolution, and integration with other digital public services across the European interoperability ecosystem.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -62,7 +61,7 @@ Both types of documents are important for ensuring that digital public services 
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EIRA Ontology viewpoint</td></tr>
+								<tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EIRA Ontology view</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -94,15 +93,45 @@ Both types of documents are important for ensuring that digital public services 
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-5bbbbf4d53e74885b4cb992bb2a1d2d2.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-d0b0117b4b984e0c808fad5b967a7d61.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
-											<td><a href="../elements/id-b531b6738fd04aac80dcf41c2f713fa5.html" target="element"> Interoperability Specification</a></td>
+											<td><a href="../elements/id-f2df229ce5f94309b6659402c8a8fe70.html" target="element"> Solution Building Block</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e090b7fd5c7a4704adb971b5a773cf13.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
+											<td><a href="../elements/id-1ea8e77a3f20468caaf357489f531a79.html" target="element"> Infrastructure Solution</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-56c8a5400fd14ca2b19d979b13a59171.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
+											<td><a href="../elements/id-c7d465fd02ec4d068256249602ffb3c7.html" target="element"> Legal Solution</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9bc6098f34994e98830fe1857fdee5ef.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
+											<td><a href="../elements/id-5535b725677041c5a22db51cf173be09.html" target="element"> Hosting Facility</a></td>
 										</tr><tr>
 											<td><a href="../elements/id-c37b1efc7ebe4ec69c13d59741856dcd.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
 											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
 											<td><a href="../elements/id-c63010a458024579835a9ea0b3b4823f.html" target="element"> EIRA Library of Interoperability Specifications</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5bbbbf4d53e74885b4cb992bb2a1d2d2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
+											<td><a href="../elements/id-b531b6738fd04aac80dcf41c2f713fa5.html" target="element"> Interoperability Specification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-92aaadcbccc345d6bd699f4b795a00f5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
+											<td><a href="../elements/id-a7b95343007d41a8b65d15894b11fec2.html" target="element"> Digital Solution</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-af2623c7c2c440f5ade774bbf1e0e175.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
+											<td><a href="../elements/id-e32ddbded41b483187fca863b9f85671.html" target="element"> Organisational Solution</a></td>
 										</tr><tr>
 											<td><a href="../elements/id-11ebf6fa0b6f41248482a12cc847f1db.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
@@ -112,12 +141,12 @@ Both types of documents are important for ensuring that digital public services 
 											<td><a href="../elements/id-ad257cb5770142c19f53e08ff373accc.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
-											<td><a href="../elements/id-5a6ce88882c046bd93cec75b76e30f43.html" target="element"> Interoperable Digital Solution</a></td>
+											<td><a href="../elements/id-5a6ce88882c046bd93cec75b76e30f43.html" target="element"> Interoperable Solution</a></td>
 										</tr><tr>
-											<td><a href="../elements/id-d0b0117b4b984e0c808fad5b967a7d61.html" target="element" title=""></a></td>
+											<td><a href="../elements/id-55ad4a40dbb24fe79aa774e7cb34427f.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
 											<td><a href="../elements/id-954a9420b048408d9e0f3cbb9a855554.html" target="element"> Solution design of a target digital public service/Documentation of an existing digital public service</a></td>
-											<td><a href="../elements/id-f2df229ce5f94309b6659402c8a8fe70.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-43a4ce7ab64749a4aa27a05cee9ead08.html" target="element"> Semantic Solution</a></td>
 										</tr>
 									<tr>
 											<td><a href="../elements/id-22f9c3132b88458cacc01d2844a677aa.html" target="element" title=""></a></td>
